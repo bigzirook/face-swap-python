@@ -1,0 +1,9 @@
+# Python 3.11
+numpy==1.26.4
+opencv-python>=4.9,<5
+# CPU + CoreML (macOS) wheel. On Linux with an NVIDIA GPU, replace with: onnxruntime-gpu>=1.18
+onnxruntime>=1.18
+insightface==0.7.3
+Pillow>=10.0
+tqdm>=4.66
+requests>=2.31

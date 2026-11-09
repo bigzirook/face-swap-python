@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Model weights (large; InsightFace non-commercial licence) - fetch with: python download_models.py
+models/*
+!models/.gitkeep
+
+# Generated results
+outputs/*
+!outputs/.gitkeep
+
+# Personal target photo - add only if you have the subject's permission
+av.jpg
+
+.DS_Store
